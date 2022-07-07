@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+.menu-container h1 {
+  font-style: italic;
+}
+
+.title {
+  display: flex;
+  padding-left: 20px;
+  font-size: 25px;
+  letter-spacing: 0.4rem;
+}
+
+.list-container {
+  display: flex;
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 150px;
+  padding: 0px 15px;
+  letter-spacing: 0.1rem;
+}
+.list-container li {
+  padding: 0 10px;
+}
+
+.list-container li:hover {
+  cursor: pointer;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.banner-left {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  line-height: 4rem;
+  font-size: 40px;
+}
+
+.banner-description p {
+  color: red;
+}
+
+.banner-description h1 {
+  font-style: italic;
+}
+.banner-right img {
+  padding-left: 50px;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 20px;
+  word-spacing: 0.1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffd31d;
+  color: black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 18px 5px white;
+}
+
+.keep-fit-section {
+  padding-bottom: 80px;
+}
+.kf-heading {
+  text-align: center;
+  font-size: 35px;
+  word-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.box-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.card p {
+  font-family: "Edu QLD Beginner", cursive;
+}
+
+/* .card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 250px;
+  border: 1px solid gray;
+  box-shadow: 10px 10px 16px gray;
+  border-radius: 10px;
+  margin-top: 40px;
+  transition: 0.5ms;
+} */
+/* .card1:hover {
+  border-top: 1px solid red;
+  margin-top: -20px;
+  transition: 0.5ms;
+} */
+
+.card {
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #898aa6;
+  /* border-radius: 10px; */
+  margin: 0 20px 0 20px;
+  color: black;
+  font-size: 20px;
+  overflow: hidden;
+  box-shadow: 2px 2px 16px 3px #d3cedf;
+  transition: 0.5ms;
+}
+
+.card:hover {
+  border-top: 2px solid black;
+  /* margin-top: -20px; */
+}
+
+#card1-color {
+  background-color: #c6dce4;
+}
+#card2-color {
+  background-color: #f87474;
+}
+#card3-color {
+  background-color: #fef9a7;
+}
+
+.about-us {
+  height: 880px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.about-contants {
+  display: flex;
+  column-gap: 100px;
+  box-sizing: border-box;
+  justify-content: center;
+  padding-top: 40px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.about-images img {
+  clip-path: polygon(15% 15%, 85% 0, 86% 85%, 15% 100%);
+}
+
+.about-headings {
+  border-top: 2px solid red;
+  width: 50%;
+}
+
+.about-images {
+  display: flex;
+  border-top: 2px solid white;
+  width: 50%;
+}
+
+.headings {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-items {
+  list-style: square;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.image {
+  padding: 40px;
+  height: 500px;
+  width: 300px;
+}
