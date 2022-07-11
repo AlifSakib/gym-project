@@ -31,12 +31,14 @@
   padding: 0px 15px;
   letter-spacing: 0.1rem;
 }
+
 .list-container li {
   padding: 0 10px;
 }
 
 .list-container li:hover {
   cursor: pointer;
+  text-shadow: -2px -2px 11px rgba(255, 0, 0, 1);
 }
 
 .banner-container {
@@ -45,6 +47,7 @@
   background-color: black;
   color: white;
 }
+
 .banner-left {
   align-items: center;
   justify-content: center;
@@ -60,6 +63,7 @@
 .banner-description h1 {
   font-style: italic;
 }
+
 .banner-right img {
   padding-left: 50px;
   background-attachment: fixed;
@@ -84,6 +88,7 @@ button:hover {
 .keep-fit-section {
   padding-bottom: 80px;
 }
+
 .kf-heading {
   text-align: center;
   font-size: 35px;
@@ -110,7 +115,8 @@ button:hover {
 }
 
 .card p {
-  font-family: "Edu QLD Beginner", cursive;
+  /* font-family: "Edu QLD Beginner", cursive; */
+  /* font-family: "Quicksand", sans-serif; */
 }
 
 /* .card1 {
@@ -215,6 +221,12 @@ button:hover {
   background-color: white;
   color: black;
 }
+
+/* #about-button:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 2px 2px 16px 10px red;
+} */
 
 .headings {
   margin-top: 15px;
